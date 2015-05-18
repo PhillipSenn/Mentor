@@ -1,0 +1,26 @@
+--use tech
+--select * from tech
+
+--use mentor20150506
+--select * from type
+--DECLARE @TypeID Int = 400
+--insert into P(P_KeyID,PName,P_TypeID)
+--SELECT KeyID,TechDesc,@TypeID
+--from ki
+--left join (
+--	select pid,p_KeyID
+--	FROM P
+--	JOIN Type
+--	ON P_TypeID = TypeID
+--	WHERE TypeName = 'Description'
+--) P
+--ON P_KeyID = KeyID
+--UPDATE Ki
+--SET KeyDesc = (
+--	SELECT top 1 TechDesc
+--	FROM Tech..Tech
+--	WHERE Tech_TurnID=100
+--	AND TechName = KeyName
+--)
+--WHERE Key_ParentID=600
+--select * from ki
